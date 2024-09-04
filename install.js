@@ -29,6 +29,7 @@ module.exports = {
         path: "app",                // Edit this to customize the path to start the shell from
         message: [
           "pip install -r requirements.txt",
+          "pip uninstall -y diffusers[torch]",
           "pip install -r ui_requirements.txt"
         ]
       }
