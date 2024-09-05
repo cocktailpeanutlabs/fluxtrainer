@@ -1,6 +1,6 @@
 const path = require('path')
 module.exports = {
-  version: "2.0",
+  version: "2.1",
   title: "fluxtrainer",
   description: "",
   icon: "icon.png",
@@ -32,6 +32,10 @@ module.exports = {
             icon: 'fa-solid fa-terminal',
             text: "Terminal",
             href: "start.js",
+          }, {
+            icon: "fa-solid fa-flask",
+            text: "Outputs",
+            href: "app/fluxtrainer/outputs?fs"
           }]
         } else {
           return [{
@@ -61,6 +65,10 @@ module.exports = {
           icon: "fa-solid fa-power-off",
           text: "Start",
           href: "start.js",
+        }, {
+          icon: "fa-solid fa-flask",
+          text: "Outputs",
+          href: "app/fluxtrainer/outputs?fs"
         }, {
           icon: "fa-solid fa-plug",
           text: "Update",
